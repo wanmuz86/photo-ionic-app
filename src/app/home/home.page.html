@@ -17,5 +17,11 @@
     <ion-button expand="block" (click)="takePicture()">Open Camera</ion-button>
     <ion-button expand="block" (click)="selectImage()">Select Image from Library</ion-button>
     <img [src]="imageUrl" *ngIf="imageUrl" />
+
+    <ion-button expand="block" (click)="getCurrentLocation()">Get Current Location</ion-button>
+    <div *ngIf="currentCoordinates">
+    <p>Latitude: {{currentCoordinates.latitude  }}</p>
+    <p>Longitude: {{currentCoordinates.longitude  }}</p>
+    </div>
     </div>
 </ion-content>

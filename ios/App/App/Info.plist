@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-        <string>myDeviceApp</string>
+	<string>myDeviceApp</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,5 +45,17 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We would like to use camera for profile picture</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We would like to use photo library for profile picture</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We would like to use photo library for profile picture</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We would like to use location to get the nearest restaurant</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We would like to use location to get the nearest restaurant</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We would like to use location to get the nearest restaurant</string>
 </dict>
 </plist>
